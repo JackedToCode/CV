@@ -1,14 +1,19 @@
 body {
-    background-color: #181D31;
+    background-color: #1C1F2B;
     font-family: Cursive;
-    color: #F0E9D2;
+    color: #B2CCB9;
+    margin: 0 auto;
+    text-align: center;
 }
 
-a:link{
-    color: #F0E9D2;
+a{
+    color: #757CA1;
 }
 a:visited{
-    color: blue;
+    color: #4E73A3;
+}
+a:hover{
+    color: #E9562F;
 }
 
 hr {
@@ -17,13 +22,78 @@ hr {
     border-color: grey;
     border-width: 5px;
     width: 5%;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
-h1, h2{
-    color: #678983;
+img{
+    margin: 2em;
+    border-radius: 100%;
+    box-shadow: black 5px 5px 10px;
 }
 
-h2{
-    text-decoration: underline;
+img:hover{
+    box-shadow: white 5px 5px 10px;
 }
 
+#footer{
+    background-color: #292D3E;
+    margin-bottom: 0rem;
+    margin-top: 1em;
+    padding: 1px;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: black 0em -5px 10px;
+}
+
+
+.header{
+    background-color: #292D3E;
+    text-align: center;
+    box-shadow: black 1em 1em 1em 1em;
+}
+.book{
+    border-style: double;
+    border-width: 1px;
+    width: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.menu{
+    background-color: #353a50;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 0px 0px 25px 25px;
+}
+.menu a{
+    margin: 2em;
+}
+
+.menu a:hover {
+    color: #E9562F;
+}
+
+table{
+    border: none;
+    display: inline;
+    text-align: left;
+}
+
+td{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+th{
+    text-align: center;
+}
+
+h1{
+    padding: 1em 0em 1em 0em;
+    margin: 0 auto;
+}
+
+h1, h2, h3{
+    color: #A6ACCD;
+}
